@@ -1,0 +1,15 @@
+{
+  "name": "coinconvert",
+  "version": "1.0.0",
+  "description": "conversor de dolar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diwalker",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
