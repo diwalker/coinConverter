@@ -31,7 +31,7 @@ async function robo() {
         return document.querySelector('.a61j6.vk_gy.vk_sh.Hg3mWc').value;
     });
     
-    console.log(`O valor de 1 ${moedaBase} em ${moedaFinal} é: ${resultado}`)
+    console.log(`O valor de 1 ${moedaBase} em ${moedaFinal} é: ${green + resultado + reset}`)
     await browser.close();
     }
 robo();
